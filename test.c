@@ -1,13 +1,10 @@
 #include "shell.h"
-
-
 /**
  * _txemy - to close the shell
  * @data: for data
  * Return: the state
  * (0) if info.argv[0] != "exit"
  */
-
 int _txemy(info_t *data)
 {
 int exthck;
@@ -28,7 +25,6 @@ return (-2);
 data->err_num = -1;
 return (-2);
 }
-
 /**
  * comd - hth
  * @data: htht
@@ -74,7 +70,6 @@ _setenv(data, "PWD", getcwd(buff, 1024));
 }
 return (0);
 }
-
 /**
  *to_as -fff
  *@data: Skuku

@@ -1,3 +1,4 @@
+#include "shell.h"
 /**
  * i_a_mode - chack if the shell in i_a_mode
  * @data: address of the struct
